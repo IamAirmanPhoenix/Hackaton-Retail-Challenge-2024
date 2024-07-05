@@ -33,10 +33,10 @@ Este proyecto tiene como finalidad analizar el valor de los clientes para una em
 
 | Diciplina      | Nombre                                                               | País      |
 | :------------- | :------------------------------------------------------------------- | :-------- |
-| Web Developer  | [Samuel Coronado Salamanca](https://github.com/xxxxxxxxxxx)          | Colombia  |
+| Web Developer  | [Samuel Coronado Salamanca](https://github.com/dokkodoo5)            | Colombia  |
 | Data Analyst   | [Juan Esteban Macias Balboa](https://github.com/JuanEMacias)         | Mexico    |
 | Data Analyst   | [Alan Eduardo Caballero García](https://github.com/alan-caballero-g) | Mexico    |
-| Data Scientist | [Paulo Huamán Flores](https://github.com/pfhuamanflores)             | Perú      |
+| Data Scientist | [Paulo Fabián Huamán Flores](https://github.com/pfhuamanflores)      | Perú      |
 | Data Scientist | [Jorge Ivàn Patiño Carrillo](https://github.com/JorgeIvan88)         | Mexico    |
 | Data Scientist | [Manuel Alejandro Lagunas Aragón](https://github.com/ManuelLagunas)  | Mexico    |
 | Data Scientist | [Juan José Treviño Trujillo](https://github.com/IamAirmanPhoenix)    | Mexico    |
