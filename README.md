@@ -4,7 +4,7 @@ Bienvenidos al repositorio del proyecto del hackathon cuyo objetivo es desmentir
 
 ## Descripción
 
-Este proyecto tiene como finalidad analizar el valor de los clientes para una empresa de Retail utilizando técnicas de machine learning y análisis de datos. Buscamos demostrar que no todos los clientes generan el mismo valor y que, por lo tanto, deben ser tratados de manera diferenciada para maximizar la rentabilidad de la empresa.
+Este proyecto tiene como finalidad analizar el valor de los clientes para una empresa de Retail utilizando técnicas de machine learning y análisis de datos. Buscamos demostrar que no todos los clientes generan el mismo valor y que, por lo tanto, deben ser tratados de manera diferenciada para maximizar la rentabilidad de la empresa. El análsis de datos y técnicas de machine learning utilizadas se pueden ver en el Jupyter Notebook, dentro de la carpeta dataset con el nombre "Notebok_Hackaton_retail_challenge"
 
 ## Tecnologías Utilizadas
 
