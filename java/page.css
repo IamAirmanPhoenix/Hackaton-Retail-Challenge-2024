@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #434343;
+  font-family: "Poppins", monospace;
+  color: white;
+  font-size: 0.7em;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+html {
+  padding: 0;
+  font-weight: 300;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.portada {
+  display: flex;
+  justify-content: space-around;
+}
+.title {
+  margin-top: 50px;
+}
+.img {
+  max-width: 300px;
+  margin-bottom: 20px;
+  border: solid black;
+}
+section {
+  margin-bottom: 40px;
+}
+.introduccion {
+  margin-top: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  font-weight: 200;
+}
+
+hr {
+  border-color: white;
+  margin: 10px 0;
+}
+
+figure,
+canvas {
+  background-color: #323331;
+  padding: 10px 10px 30px;
+}
+
+canvas {
+  width: 100%;
+}
+
+/* grid */
+
+[class*="cols"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.cols-1 > * {
+  width: 100%;
+  margin: 10px;
+}
+
+.cols-2 > * {
+  width: 50%;
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+  main {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 2.1em;
+    font-weight: 100;
+  }
+
+  [class*="cols"] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cols-2 > * {
+    width: 100%;
+  }
+}
+
+button {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #070000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  max-width: 100%;
+  background-color: #09557d;
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px*/
+}
+
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-family: "Oswald", sans-serif;
+  margin: 0 auto;
+}
+
+.footer__names {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  padding: 3rem;
+  margin: 2rem;
+}
+
+h1,
+p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.team {
+  margin: 2rem 0;
+  font-size: 4rem;
+}
+
+img {
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.icon {
+  height: 3.5rem;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#participants {
+  width: 100%;
+  height: 100%;
+}
+
+.conclusion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem;
+}
