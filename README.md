@@ -37,7 +37,10 @@ Este proyecto tiene como finalidad analizar el valor de los clientes para una em
 | Data Analyst   | [Juan Esteban Macias Balboa](https://github.com/JuanEMacias)         | Mexico    |
 | Data Analyst   | [Alan Eduardo Caballero García](https://github.com/alan-caballero-g) | Mexico    |
 | Data Scientist | [Paulo Huamán Flores](https://github.com/pfhuamanflores)             | Perú      |
-| Data Scientist | [xxxxxxxxxxxxxxxxxx]()                                               | Mexico    |
+| Data Scientist | [Jorge Ivàn Patiño Carrillo](https://github.com/JorgeIvan88)         | Mexico    |
+| Data Scientist | [Manuel Alejandro Lagunas Aragón](https://github.com/ManuelLagunas)  | Mexico    |
+| Data Scientist | [Juan José Treviño Trujillo](https://github.com/IamAirmanPhoenix)    | Mexico    |
+
 
 ## Visita nuestro sitio web
 [Hackathon-Data Web Solvers](https://adfadfsdgsgfsdfgsdfgser64464646/)
