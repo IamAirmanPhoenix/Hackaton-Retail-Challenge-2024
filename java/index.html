@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Web Solvers</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./page.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="portada">
+        <div class="title">
+          <h1>Data Web Solvers</h1>
+          <p>Visualización de estadísticas globales</p>
+        </div>
+        <img src="./img portada.webp" alt="dta analys" class="img" />
+      </div>
+      <hr />
+
+      <div class="introduccion">
+        <h2 class="">
+          Hoy quiero comenzar nuestra exposición con una escena de la película
+          "Moneyball", una historia fascinante basada en hechos reales. En esta
+          película, el gerente general de los Oakland Athletics, Billy Beane,
+          enfrenta el desafío de construir un equipo competitivo con un
+          presupuesto muy limitado. Mientras los equipos rivales contratan a los
+          jugadores más caros y talentosos, Beane decide adoptar un enfoque
+          revolucionario: en lugar de seguir las intuiciones tradicionales de
+          los scouts de béisbol, se apoya en el análisis de datos para
+          identificar jugadores infravalorados que pueden aportar un gran valor
+          al equipo. Al igual que en "Moneyball", donde no todos los jugadores
+          valen lo mismo para el equipo, en el mundo de los negocios, no todos
+          los clientes tienen el mismo valor para una empresa. A menudo se asume
+          que todos los clientes son iguales, pero hoy estamos aquí para
+          demostrar lo contrario. A través del análisis de datos, podemos
+          identificar patrones y segmentar a los clientes de manera que revelen
+          su verdadero valor, permitiendo a las empresas tomar decisiones más
+          informadas y estratégicas.
+        </h2>
+      </div>
+      <div style="width: 700px; height: 800px; margin: auto">
+        <canvas id="ventastotales" width="300" height="300"></canvas>
+      </div>
+      <div style="width: 700px; height: 700px; margin: auto">
+        <canvas id="ingresospais"></canvas>
+      </div>
+
+      <div style="width: 800px; margin: auto">
+        <h2>Segmentacion Clientes</h2>
+        <h2>Recencia Promedio</h2>
+        <canvas id="recenciaPromedio"></canvas>
+        <h2>Recencia Conteo</h2>
+        <canvas id="recenciaConteo"></canvas>
+        <h2>Frecuencia Promedio</h2>
+        <canvas id="frecuenciaPromedio"></canvas>
+        <h2>Frecuencia Conteo</h2>
+        <canvas id="frecuenciaConteo"></canvas>
+        <h2>Monetario Promedio</h2>
+        <canvas id="monetarioPromedio"></canvas>
+        <h2>Monetario Conteo</h2>
+        <canvas id="monetarioConteo"></canvas>
+      </div>
+
+      <h2 style="max-width: 1000px; margin: auto">
+        Actualmente la recencia promedio para los clientes activos y leales es
+        de 39.62 los clientes vip 3 y los clientes en riesgo es de 244.57. Si
+        lograremos aumentar en un 10% la decencia en el grupo de clientes en
+        riego tomando en cuenta que su monetario promedio de este grupo esta en
+        577.76, asumiendo que la decencia y la frecuencia promedio tienen una
+        relación inversa directa. El aumento en las ventas seria de: 1899264.67
+        algunas técnicas para conseguir este objetivo son programas de lealtad
+        servicios de suscripción, marketing personalizado o mejorar la
+        experiencia del cliente. Para conseguir un aumento similar tratando de
+        aumentar el valor monetario promedio, se tendría que hacer un aumento de
+        casi el 400% en este rubro es decir que los clientes en riesgo compren
+        en promedio 2231.04 sin modificar la frecuencia o la recencia
+      </h2>
+
+      <section class="cols-1">
+        <figure>
+          <h2>clientes por mes</h2>
+          <canvas id="heatmap" width="500px" height="200px"></canvas>
+        </figure>
+      </section>
+      <section class="cols-2">
+        <figure>
+          <h2>
+            Comparativa de características:
+            <select id="featuresOptions"></select>
+          </h2>
+          <canvas id="graficoVentas"></canvas>
+        </figure>
+      </section>
+
+      <h2>
+        creemo en el valor de cada cliente es por eso que analizamos y estamos
+        pendientes de cada uno de sus movimientos fidelizamos y acompañamos a
+        cada cliente turante su trancicion creemo en el valor de cada cliente es
+        por eso que analizamos y estamos pendientes de cada uno de sus
+        movimientos fidelizamos y acompañamos a cada cliente turante su
+        trancicion creemo en el valor de cada cliente es por eso que analizamos
+        y estamos pendientes de cada uno de sus movimientos fidelizamos y
+        acompañamos a cada cliente turante su trancicion
+      </h2>
+      <section class="cols-2">
+        <figure>
+          <h2>Comparativa de características:</h2>
+          <canvas id="featuresChart"></canvas>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <section id="participants">
+        <h1 class="team">Team</h1>
+        <div class="conclusion">
+          <h1>Conclusion</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
+            molestias praesentium sunt! Voluptas mollitia ea quos quis obcaecati
+            quod officia autem vero beatae accusantium maxime iure corporis,
+            natus ipsa. Officiis.Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Provident molestias praesentium sunt! Voluptas
+            mollitia ea quos quis obcaecati quod officia autem vero beatae
+            accusantium maxime iure corporis, natus ipsa. Officiis.
+          </p>
+        </div>
+        <h1 class="footer__title">Data Analyst</h1>
+        <div class="group data-analyst">
+          <div class="person person__data-analyst">
+            <img src="img/Manuel lagunas.jfif" alt="" />
+            <h3 class="footer__names">Manuel Alejandro Lagunas Aragon</h3>
+            <a href="http://github.com/ManuelLagunas"
+              ><img class="icon" src="img/icons8-github.svg" alt=""
+            /></a>
+          </div>
+          <div class="person person__data-analyst">
+            <img src="img/julian treviño.png" alt="" />
+            <h3 class="footer__names">Juan Jose Treviño Trujillo</h3>
+            <a href="http://github.com/IamAirmanPhoenix"
+              ><img class="icon" src="img/icons8-github.svg" alt=""
+            /></a>
+          </div>
+          <div class="person person__data-analyst">
+            <img src="img/Paulo.jfif" alt="" />
+            <h3 class="footer__names">Paulo Fabián Huamán Flores</h3>
+            <a href="http://github.com/pfhuamanflores"
+              ><img class="icon" src="img/icons8-github.svg" alt=""
+            /></a>
+          </div>
+          <div class="person person__data-analyst">
+            <img src="img/jorge ivan.jfif" alt="" />
+            <h3 class="footer__names">Jorge Iván Patiño</h3>
+            <a href="http:///github.com/JorgeIvan88"
+              ><img class="icon" src="img/icons8-github.svg" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <h1 class="footer__title">Data science</h1>
+        <div class="group data-science">
+          <div class="person person__data-science">
+            <img src="img/alan.png" alt="" />
+            <h3 class="footer__names">Alan Eduardo Caballero García</h3>
+            <a href="http://github.com/alan-caballero-g"
+              ><img class="icon" src="img/icons8-github.svg" alt=""
+            /></a>
+          </div>
+          <div class="person person__data-science">
+            <img src="img/juan macias.png" alt="" />
+            <h3 class="footer__names">Juan Esteban Macias Balboa</h3>
+            <a href="http://github.com/JuanEMacias"
+              ><img class="icon" src="img/icons8-github.svg" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <h1 class="footer__title">Web development</h1>
+        <div class="group web-development">
+          <div class="person person__web-development">
+            <img src="img/dokodo.jfif" alt="" />
+            <h3 class="footer__names">Samuel Coronado Salamanca</h3>
+            <a href="http://github.com/dokkodoo5"
+              ><img class="icon" src="img/icons8-github.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="./rfmData.json"></script>
+    <script src="./scrips.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
